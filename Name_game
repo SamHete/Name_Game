@@ -1,0 +1,12 @@
+Name = input("What's your name? ")
+vowels = ('a','e','i','o','u','A','E','I','O','U')
+if Name.startswith(vowels):
+    Lame = Name[0].lower() + Name[1:]
+    namegame = "%s, %s, bo-b%s, Banana-fana fo-f%s, Fee-fi-mo-m%s, %s!"
+    namegamefinal = namegame % (Name, Name, Lame, Lame, Lame, Name)
+    print(namegamefinal);
+else:
+    Ame = Name[1:]
+    namegame = "%s, %s, bo-b%s, Banana-fana fo-f%s, Fee-fi-mo-m%s, %s!"
+    namegamefinal = namegame % (Name, Name, Ame, Ame, Ame, Name)
+    print(namegamefinal);
